@@ -4,6 +4,8 @@ import imutils
 from imutils import contours
 import os
 
+# Author : Mohamed Bakr
+
 def getThresh(img):
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     blur = cv.GaussianBlur(gray, (5, 5), 0)
